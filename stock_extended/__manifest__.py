@@ -10,9 +10,10 @@
 		'stock'
 	],
 	'data': [
-  		'data/res_company_data.xml',
-    	'data/stock_picking_type_data.xml',
 	],
 	'installable': True,
-	'application': True
+	'application': True,
+	 'external_dependencies': {
+        'python': ['translate'],
+    },
 }
